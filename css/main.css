@@ -1,15 +1,16 @@
-p {
-	color: black;
-	background: yellow;
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
 h1 {
 	padding: 10px;
 	margin: 70px;
-	border-style: dashed;
-	border-width: 5px;
+	font-size: 48px;
+	font: Monospace;
+	border-bottom: 2px solid #009;
 	text-align: center;
-	background: purple;
+	background-image: "/image/background.jpg";
 }
 
 h2 {
@@ -45,11 +46,6 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #111;
-}
-
-ol {
-	color: black;
-	background: orange;
 }
 
 form  {
