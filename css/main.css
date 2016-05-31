@@ -7,21 +7,14 @@ h1 {
 	padding: 10px;
 	margin: 70px;
 	font-size: 48px;
-	font: Monospace;
 	border-bottom: 2px solid #009;
 	text-align: center;
-	background-image: "/image/background.jpg";
 }
 
 h2 {
 	color: black;
 	background: lightgreen;
 	text-align: center;
-}
-
-body {
-	color: black;
-	background: skyblue;
 }
 
 nav ul {
