@@ -48,6 +48,10 @@ nav ul li a:hover {
   background-color: #111;
 }
 
+orderlist ol li {
+	float: left	
+}
+
 form  {
 	color: darkgray;
 	background: pink;
