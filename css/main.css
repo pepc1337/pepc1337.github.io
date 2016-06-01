@@ -3,55 +3,38 @@
 	padding: 0px;
 }
 
-h1 {
-	padding: 10px;
-	margin: 70px;
-	font-size: 48px;
-	border-bottom: 2px solid #009;
+.backrgound img { 
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navbar ul li {
+	float: left;
+}
+
+.navbar ul li a {
+	display: block;
+	color: white;
 	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
-h2 {
-	color: black;
-	background: lightgreen;
-	text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  background-color: #111;
-}
-
-orderlist ol li {
-	float: left	
+.navbar ul li a:hover {
+	background-color: #111;
 }
 
 form  {
 	color: darkgray;
 	background: pink;
 	text-align: center;
-}
-
-input {
-	color: black;
-	background: white;
 }
