@@ -3,10 +3,17 @@
 	padding: 0;
 }
 
+body {
+	background: #333;
+}
+
+h2 {
+	background: white;
+}
 
 img.background {
-	margin: 0%;
-	padding: 0%;
+	margin: 0;
+	padding: 0;
     width: 100%;
     height: auto;
 }
@@ -15,11 +22,15 @@ img.background {
 	position: relative;
 }
 
+.top-menu .home {
+	background: #4CAF50;
+}
+
 .sec-menu {
 	position: absolute;
-	top: 70px;
+	top: 55px;
 	left: 0;
-	width: 70px;
+	width: 100px;
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -27,8 +38,8 @@ img.background {
 }
 
 .sec-menu li {
+	float: left;
 	position: relative;
-	height: 30px;
 	background: #333;
 }
 
@@ -36,9 +47,16 @@ img.background {
 	background: #000;
 }
 
+.sec-menu a {
+	border-left: 2px sold #333;
+}
+
+.sec-menu a:hover {
+	border-left: 2px sold #FF0000;
+}
+
 .top-menu {
 	list-style: none;
-	overflow: hidden;
 	background: #333;
 }
 
@@ -49,14 +67,14 @@ img.background {
 }
 
 .top-menu li a {
-	font-size: 20px;
+	font-size: 18px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	height: 30px;
+	height: 25px;
+	width: 100px;
 	display: block;
-	width: 70px;
 	padding: 14px 16px;
 	border-bottom: 2px solid #333;
 }
