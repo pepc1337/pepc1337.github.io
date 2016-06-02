@@ -9,7 +9,6 @@ img.background {
 	padding: 0%;
     width: 100%;
     height: auto;
-    opacity: 100%;
 }
 
 .navbar {
@@ -74,8 +73,6 @@ img.background {
 
 .top-menu li:hover ul {
 	display: inline;
-	visibility: visible;
-	z-index: 3;
 }
 
 <!-- -moz-border-radius: 10px
