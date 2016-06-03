@@ -53,27 +53,41 @@
 	</ul>
 
 </div>
+
 <h1>Join Us</h1>
 
-<p><strong>WARNING:</strong> It looks the part, but won't do <strong>S**T</strong>.</p>
+<h2><strong>WARNING:</strong> It looks the part, but won't do <strong>S**T</strong>.</h2>
 
-<form action="submit/" method="post">
+<form action="/" method="post">
 
-<p>First Name:</p>
-<p><textarea rows="1" cols="35" name="name">Enter your name here.</textarea></p>
+<h3>Your Name:</h3>
 
-<p>Email address:
-<p><textarea rows="1" cols="35" name="email">Enter your Email address here.</textarea></p>
+<div>
+<textarea class="name" name="name">Enter your name here.</textarea>
+</div>
 
-<p>Comments: </p>
-<p><textarea rows="8" cols="35" name="comments">Any comments?</textarea></p>
+<h3>Email address:</h3>
 
-<p>Are you:</p>
-<p><input type="radio" name="areyou" value="male"> Male</p>
-<p><input type="radio" name="areyou" value="female"> Female</p>
-<p><input type="radio" name="areyou" value="hermaphrodite"> Others</p>
+<div>
+<textarea class="email" name="email">Enter your Email address here.</textarea>
+</div>
 
-<p><input type="submit"></p>
+<h3>Comments: </h3>
+
+<div>
+<textarea class="comments" name="comments">Any comments?</textarea></p>
+</div>
+
+<h3>Are you:</h3>
+	<div>
+	<select id="gender" name="gender">
+		<option value="male">Male</option>
+		<option value="female">Female</option>
+		<option value="others">Others</option>
+	</select>
+	</div>
+	
+<button class="button" type="submit">Submit</button>
 
 </form>
 

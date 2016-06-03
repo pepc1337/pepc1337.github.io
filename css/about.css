@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 28px;
+	font-family: "Comic Sans MS";
+	color: white;
+	text-align: center;
+	background: #255;
+	padding: 20px;
+}
+
+h3 {
+	font-size: 24px;
+	padding: 16px;
+}
+
+.navbar {
+	position: fixed;
+}
+
+.olist {
+    background: #333;
+    padding: 10px;
+}
+
+.ulist {
+    background: #333;
+    padding: 20px;
+}
+
+.olist li {
+    background: #ff80d5;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.ulist li {
+    background: #cce5ff;
+    padding: 10px;
+}
