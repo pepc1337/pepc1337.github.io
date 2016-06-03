@@ -3,10 +3,6 @@
 	padding: 0;
 }
 
-.navbar {
-	position: fixed;
-}
-
 h2 {
 	font-size: 28px;
 	font-family: "Comic Sans MS";
@@ -16,8 +12,6 @@ h2 {
 	padding: 20px;
 }
 
-.container {
-	background: #333;
-	border-bottom: 2px solid skyblue;
-	text-align: center;
+.navbar {
+	position: fixed;
 }
